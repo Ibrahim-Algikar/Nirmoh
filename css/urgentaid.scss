@@ -1,0 +1,146 @@
+
+// urgentAid start
+.urgentAid {
+    // section disaster start
+    .disaster {
+        .container {
+            .dis-flex {
+                align-items: center;
+            }
+            .content-wrp {
+                flex-wrap: wrap;
+                .content-info {
+                    .goal {
+                        justify-content: flex-end;
+                    }
+                    .schedule {
+                        align-items: center;
+                        justify-content: space-between;
+                        .end-date {
+                            justify-content: flex-end;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    // section disaster end
+    // Responsive start
+    @media only screen and (max-width:767px) {
+        // section disaster start
+        .disaster {
+            .container {
+                .btn {
+                    justify-content: center;
+                }
+            }
+        }
+        // section disaster end
+    }
+    // Responsive end
+}
+// urgentAid end
+
+// webinarseries start
+.webinarseries {
+    .top-banner {
+        .container {
+            .img-wrp {
+                width: 70%;
+            }
+        }
+    }
+    // content-wrp start
+    .webinar-main-wrp {
+        .container {
+            .content {
+                position: relative;
+                .para-01,
+                .para-02{
+                    font-weight: 600;
+                }
+                .around-padding {
+                    width: 100%;
+                    justify-content: center;
+                    .img-wrp {
+                        width: 35%;
+                        margin: 0;
+                    }
+                    .webinar-cont-padding {
+                        width: 40%;
+                        padding: 15px 30px;
+                    }
+                }
+            }
+        }
+    }
+    // content-wrp end
+    // worldmap start
+    .worldmap {
+        width: 50%;
+        margin: auto;
+    }
+    // worldmap end
+    // Responsive start
+    @media only screen and (max-width:1024px) {
+        // content-wrp start
+        .webinar-main-wrp {
+            .container {
+                .content {
+                    .around-padding {
+                        width: 100%;
+                        .img-wrp {
+                            width: 40%;
+                        }
+                        .webinar-cont-padding {
+                            width: 60%;
+                            padding: 10px 20px;
+                        }
+                    }
+                }
+            }
+        }
+        // content-wrp end
+        // worldmap start
+        .worldmap {
+            width: 80%;
+        }
+        // worldmap end
+    }
+    @media only screen and (max-width:768px) {
+        // worldmap start
+        .worldmap {
+            width: 100%;
+        }
+        // worldmap end
+    }
+    @media only screen and (max-width:767px) {
+        .top-banner {
+            .container {
+                .img-wrp {
+                    width: 100%;
+                }
+            }
+        }
+        // content-wrp start
+        .webinar-main-wrp {
+            .container {
+                .content {
+                    .around-padding {
+                        flex-direction: column;
+                        .img-wrp {
+                            width: 100%;
+                        }
+                        .webinar-cont-padding {
+                            width: 100%;
+                            padding: 16px 14px 40px;
+                        }
+                    }
+                }
+            }
+        }
+        // content-wrp end
+    }
+    // Responsive end
+}
+// webinarseries end

@@ -1,0 +1,85 @@
+.urgentAid .disaster .container .dis-flex {
+  align-items: center;
+}
+.urgentAid .disaster .container .content-wrp {
+  flex-wrap: wrap;
+}
+.urgentAid .disaster .container .content-wrp .content-info .goal {
+  justify-content: flex-end;
+}
+.urgentAid .disaster .container .content-wrp .content-info .schedule {
+  align-items: center;
+  justify-content: space-between;
+}
+.urgentAid .disaster .container .content-wrp .content-info .schedule .end-date {
+  justify-content: flex-end;
+}
+@media only screen and (max-width: 767px) {
+  .urgentAid .disaster .container .btn {
+    justify-content: center;
+  }
+}
+
+.webinarseries .top-banner .container .img-wrp {
+  width: 70%;
+}
+.webinarseries .webinar-main-wrp .container .content {
+  position: relative;
+}
+.webinarseries .webinar-main-wrp .container .content .para-01,
+.webinarseries .webinar-main-wrp .container .content .para-02 {
+  font-weight: 600;
+}
+.webinarseries .webinar-main-wrp .container .content .around-padding {
+  width: 100%;
+  justify-content: center;
+}
+.webinarseries .webinar-main-wrp .container .content .around-padding .img-wrp {
+  width: 35%;
+  margin: 0;
+}
+.webinarseries .webinar-main-wrp .container .content .around-padding .webinar-cont-padding {
+  width: 40%;
+  padding: 15px 30px;
+}
+.webinarseries .worldmap {
+  width: 50%;
+  margin: auto;
+}
+@media only screen and (max-width: 1024px) {
+  .webinarseries .webinar-main-wrp .container .content .around-padding {
+    width: 100%;
+  }
+  .webinarseries .webinar-main-wrp .container .content .around-padding .img-wrp {
+    width: 40%;
+  }
+  .webinarseries .webinar-main-wrp .container .content .around-padding .webinar-cont-padding {
+    width: 60%;
+    padding: 10px 20px;
+  }
+  .webinarseries .worldmap {
+    width: 80%;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .webinarseries .worldmap {
+    width: 100%;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .webinarseries .top-banner .container .img-wrp {
+    width: 100%;
+  }
+  .webinarseries .webinar-main-wrp .container .content .around-padding {
+    flex-direction: column;
+  }
+  .webinarseries .webinar-main-wrp .container .content .around-padding .img-wrp {
+    width: 100%;
+  }
+  .webinarseries .webinar-main-wrp .container .content .around-padding .webinar-cont-padding {
+    width: 100%;
+    padding: 16px 14px 40px;
+  }
+}
+
+/*# sourceMappingURL=urgentaid.css.map */
